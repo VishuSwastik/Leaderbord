@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(192, 158, 211), rgb(222, 154, 225), rgb(233, 167, 215));
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    color: white;
+    background-color: black;
+    margin: 15px;
+    padding: 10px 60px;
+    border: green;
+    border-radius: 5px;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(241, 180, 214);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+input {
+    outline: none;
+    width: 190px;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+button {
+    outline: none;
+    width: 150px;
+    height: 54px;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: rgb(68, 17, 52);
+    color:#fff;
+}
+
+select {
+    width: 170px;
+    height: 53px;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 65%;
+    max-height: 500px; 
+   
+    padding: 2px; 
+    margin: 2px 2px 0;
+    display: none;
+    overflow: auto; 
+}
+
+.container::-webkit-scrollbar {
+    display: none; 
+}
+
+::placeholder {
+    color: black;
+}
+
+.container div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0; 
+    color: white;
+    background: rgb(121, 6, 179);
+}
+
+.container div div {
+    width: 20%;
+    text-align: center;
+}
+
+.container div div:last-child {
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+}
